@@ -132,9 +132,15 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer-inner">
-        <p>ARM64 — Inside the Architecture · a Computer Organization and Architecture project.</p>
-        <p className="muted small">
-          Processor and device illustrations are drawn with the open-source <a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noreferrer">Anatomy</a> isometric kit (MIT licence). Arm, Cortex and Neoverse are trademarks of Arm Limited. This independent educational site isn't affiliated with Arm.
+        <div>
+          <p>ARM64 — Inside the Architecture · a Computer Organization and Architecture project.</p>
+          <p className="muted small">
+            Processor and device illustrations are drawn with the open-source <a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noreferrer">Anatomy</a> isometric kit (MIT licence). Arm, Cortex and Neoverse are trademarks of Arm Limited. This independent educational site isn't affiliated with Arm.
+          </p>
+        </div>
+        <p className="credit">
+          Designed and developed by{" "}
+          <a href="https://github.com/rmagdaleena2508-01" target="_blank" rel="noreferrer">Magdaleena</a>
         </p>
       </div>
     </footer>
